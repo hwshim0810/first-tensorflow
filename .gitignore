@@ -99,3 +99,23 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Node modules
+node_modules
+
+# TF
+/.bazelrc
+/.tf_configure.bazelrc
+/bazel-*
+/bazel_pip
+/build/
+/tensorflow/core/util/version_info.cc
+.vscode/
+cmake_build/
+*.swp
+
+# IDEA
+.idea/**
+
+# Custom
+.DS_Store
